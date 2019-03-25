@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.anagram.AppTest" duration-ms="234" started-at="2019-03-25T01:36:30Z" finished-at="2019-03-25T01:36:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="234" started-at="2019-03-25T01:36:30Z" finished-at="2019-03-25T01:36:30Z">
+      <class name="com.anagram.AppTest">
+        <test-method status="PASS" signature="testApplicationCreatesFile()[pri:0, instance:com.anagram.AppTest@129a8472]" name="testApplicationCreatesFile" duration-ms="218" started-at="2019-03-24T21:36:30Z" finished-at="2019-03-24T21:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationCreatesFile -->
+        <test-method status="PASS" signature="testApplicationCreatedFileWithOneLine()[pri:0, instance:com.anagram.AppTest@129a8472]" name="testApplicationCreatedFileWithOneLine" duration-ms="0" started-at="2019-03-24T21:36:30Z" depends-on-methods="com.anagram.AppTest.testApplicationCreatesFile" finished-at="2019-03-24T21:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationCreatedFileWithOneLine -->
+      </class> <!-- com.anagram.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.anagram.AppTest -->
+</testng-results>
